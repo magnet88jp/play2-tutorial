@@ -1,3 +1,9 @@
+logs
+project/project
+project/target
+target
+tmp
+dist
 # Extracted from https://github.com/ulrich/macaron-factory/blob/master/.gitignore
 # Ignore all dotfiles...
 .*
@@ -8,9 +14,6 @@
 db
 eclipse
 log
-logs
 precompiled
-tmp
 test-result
-eclipse
 server.pid

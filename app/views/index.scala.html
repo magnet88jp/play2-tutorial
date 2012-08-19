@@ -1,7 +1,12 @@
-@(message: String)
+@(tasks: List[Task], taskForm: Form[String])
+@{/*@(message: String)*/}
+
+@import helper._
 
 @main("Welcome to Play 2.0") {
     
-    @play20.welcome(message)
+    @{/*@play20.welcome(message)*/}
+    <h1>@tasks.size task(s)</h1>
+    
     
 }
